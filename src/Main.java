@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Remaining health: " + player1.healthRemaining());
 
         player1.loseHealth(30);
+        player1.health = 24;
         System.out.println("Remaining health: " + player1.healthRemaining());
     }
 }
